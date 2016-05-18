@@ -1,0 +1,73 @@
+
+h1{font-size: 1.250em; /* 24 / 16 pixels */}
+h2, h3{font-size: 0.938em; /* 15/ 16 pixels */}
+
+p{	
+	font-size: 0.813em; /* 13/ 16 pixels */
+	color: #808080;
+}
+h2{
+	border: 1px solid #21A6A6;
+	border-style: dashed;
+	padding: 5px;
+}
+h3{background-color: white;}
+h4{
+	border-bottom: 1px solid lightgrey;
+	font-size: 0.624em; /* 10 / 16 pixels */
+}
+h5{ 	font-size: 0.813em; /* 15/ 16 pixels */}
+
+a:link{
+	color:#21A6A6;
+	text-decoration: none;
+}
+a:visited {
+    color: #D7EFF5;
+}
+a:hover {
+    color: #D7EFF5;
+}
+
+
+
+ @media screen and (min-width: 1024px){
+html { font-size: 0.9em!important; }
+
+}
+
+@media screen and (max-width: 976px) {
+	html { font-size: 0.8em!important; }
+    body{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+}
+@media only screen and (max-width: 740px){
+html{ font-size: 0.7em!important; }
+    body{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	
+@media only screen and (max-width: 640px){
+html{ font-size: 0.6em!important; }
+    body{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 550px) {
+html{ font-size: 0.55em!important; 
+.item{display: none;}
+.description{width}: none;}	
+}
+@media screen and (max-width: 480px) {
+html{ font-size: 0.5em!important; }	
+}

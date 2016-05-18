@@ -1,11 +1,14 @@
 <!DOCTYPE HTML>
 
-<-- faire le site responsive -->
-
 <html>
 <head>
     <link rel="stylesheet" type="text/css"
-     href="C:\Users\chloe\Desktop\portfolio\framework\css\main.css">
+     href="C:\Users\chloe\Dropbox (Personnelle)\Public\portfolio\framework\css\main.css">
+	<link rel="stylesheet" type="text/css"
+	     href="C:\Users\chloe\Dropbox (Personnelle)\Public\portfolio\framework\css\fonts.css">
+	<meta http-equiv="refresh" content="600">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
     <title></title>
 <head/>
 <body>
@@ -14,13 +17,14 @@
 		</div>
 		<div id="contact"><p>chloe.baudens@gmail.com</p><p>+49 15 750 451 637 (DE)</p><p>+33 784 002 774 (FR)</p>
 		</div>
-	<ul>
-		<li><a href="https://www.linkedin.com/in/cbaudens"><i>Check out my Linkedin</i></a></li>
-		<li><a href="C:\Users\chloe\Desktop\portfolio\framework\pdf\BAUDENS Chloe_CV.pdf"><i>Download my Resume in pdf</i></a></li>
+	<ul class="nav">
+		<li><a href="https://www.linkedin.com/in/cbaudens"><h5><i>Check out my Linkedin</i></h5></a></li>
+		<li><a href="https://github.com/Chloe01"><h5><i>Follow my learning on Github</i></h5></a></li>
+		<li><a href="C:\Users\chloe\Dropbox (Personnelle)\Public\portfolio\framework\pdf\BAUDENS Chloe_CV.pdf"><h5><i>Download my Resume in pdf</i></h5></a></li>
 	</ul>
 	</div>
 	<div class="image">
-		<img src="C:\Users\chloe\Desktop\portfolio\framework\image\IMGP7350.jpg" width="100%" height="100%">
+		<img src="C:\Users\chloe\Dropbox (Personnelle)\Public\portfolio\framework\image\IMGP7350.jpg" width="100%" height="100%">
 	</div>
 	<div id="rows">
 		<div id="aside">
@@ -29,9 +33,10 @@
 				<input name="q" type="text" size="40" placeholder="Search..." />
 				</form>
 			</div>
-			<div id="my_interests">
+			<div id="resume">
 				<h3>Languages</h3>
 				<p>English (fluent C2, negotiation level, 2 years in Sydney) German B1 | Spanish B1</p>
+				<br></br>
 				<h3>My interests</h3>
 				<p>Travels | Drawing | Photoshop | Theatre | European Literature</p>
 			</div>
@@ -40,30 +45,35 @@
 		<div id="content">			
 			<div class="article">
 				<h2>My first steps on HTML5 and CSS</h2>
-				<p><i>April 2016</i></p>
-				<div class="inner_section">
-					<img target="image_sydney" src="C:\Users\chloe\Desktop\portfolio\framework\image\DSC01090.jpg" width="35%" height="35%">
-					<div class="text_article"><p>Business development Manager 
-					<p>Pharmaceutical Industry | Soyan VitaMed Natur GmbH  Berlin</p>
-					<p>Supported business development by B2B prospection and Account management (Salesforce) resulting in increased sales</p>
+				<h4><i>April 2016 | Berlin</i></h4>
+				<div class="section">
+					<img target="item" src="C:\Users\chloe\Dropbox (Personnelle)\Public\portfolio\framework\image\2.png.jpg" width="35%" height="35%">
+					<div class="description"><p>Python was fun but I wanted to explore a bit more so I decided to get into html5 and css and built my own website from scratches.<a href="https://github.com/Chloe01" class="read_more">...click here to see more on my Github</a></p>
+					</div>
 				</div>
 			</div>
 			<div class="article">
 				<h2>My first steps on Python</h2>
-				<p><i>April 2016</i></p>
-				<div class="inner_section">
-					<img target="image_sydney" src="C:\Users\chloe\Desktop\portfolio\framework\image\IMGP5945.jpg" width="35%" height="35%">
-					<div class="text_article"><p>To start with</p></div>
+				<h4><i>April 2016 | Berlin</i></h4>
+				<div class="section">
+					<div class="description"><p>I have always been amazed by all these codes able to create website but also games application and so on! Adviced by a friend, I did my first steps on Python drawing rosaces and creating small applications attending an online course on Udacity.<a href="https://github.com/Chloe01" class="read_more">... click here to see more on my Github</a></p>
+					</div>					
+					<img target="item" src="C:\Users\chloe\Dropbox (Personnelle)\Public\portfolio\framework\image\1.png.jpg" width="35%" height="35%">
 				</div>	
 			</div>
-			<ul>
-				<li><a href="file:///C:/Users/chloe/Desktop/portfolio/framework/test.html#" class="current">Page 1,</a></li>
-				<li><a href="#">more to come very soon!</a></li>
-			</ul>
-		</div>	
-	</div>
-
+		</div>
+	</div>	
+		
+</div>
+	
 </body>
-<div id="footer"><p1>This is how I learn to code :) </p1></div>
 
+<div id="footer">
+	<div id="footer_paging">
+		<a href="file:///C:/Users/chloe/Desktop/portfolio/framework/test.html#">Page 1,</a>
+		<a href="#">...more to come very soon!</a>
+	</div>	
+	<div id="footer_info"><p1>This is how I learn to code :) </p1>
+	</div>
+</div>
 </html>
